@@ -8,5 +8,9 @@
     - Add a footer. 
 
 
-#  Sources. 
+##  Sources. 
     - TMDB api. 
+
+## Inspirations. 
+    - https://letterboxd.com
+    - https://www.justwatch.com
