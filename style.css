@@ -32,7 +32,6 @@ nav ul li {
 
 nav a {
     display: block;
-    color: white;
     text-align: center;
     font-weight: bold;
     text-decoration: none;
@@ -48,7 +47,7 @@ nav li a {
 }
 
 a:hover {
-    color: white;
+    color: #eee;
 }
 
 main{
@@ -67,6 +66,7 @@ main{
     background-color: var(--secondary-color);
     position:relative;
     overflow: hidden;
+    background-color: #14181C;
 }
 
 
@@ -75,7 +75,7 @@ main{
 }
 
 .movie-info{
-    color:#eee;
+    color: #eee;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,6 +85,7 @@ main{
 
 .movie-info h3{
     margin-top: 0;
+    color: #eee;
 }
 
 .movie-info span{
@@ -111,21 +112,27 @@ main{
     left:0;
     right:0;
     bottom:0;
-    background-color: #fff;
+    background-color: #14181C;
+    color: #eee;
+    font-size: 14px;
     padding: 1rem;
     max-height: 100%;
     transform:translateY(101%);
     transition:transform 0.3s ease-in;
 }
-/*
-
-
-
-
-
-
 
 
 .movie:hover .overview{
     transform:translateY(0)
+}
+
+/* .movie:hover {
+
 } */
+
+
+
+
+
+
+
